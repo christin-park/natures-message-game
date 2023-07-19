@@ -1,0 +1,22 @@
+BUGS
+after finishing the interaction,
+- when interacting again, i cant progress the dialogue after index 0
+- i can clip through the npc
+- walking animation isn't enabled
+- red's indicator is visible
+
+general
+- the throw animation doesnt work at certain intervals
+- index out of range (but still works properly)
+- exit button isnt working
+- cant move after interacting
+
+
+
+
+
+- how to reduce redudancy in scripts? for example, i had to
+  reuse dialogue into dialogue and dialogue_2 and
+  reuse scene_switch into scene_switch and scene_switch_2
+  but i need to still make slight modifications in individual scripts,
+  thats why i need multiple.
