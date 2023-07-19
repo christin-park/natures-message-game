@@ -13,13 +13,14 @@ public class dialogue : MonoBehaviour
     public GameObject leafPlane;
     public GameObject redNPC;
     public GameObject tempLeaf;
+    public GameObject leafWrite;
     public TMP_Text dialogueText;
     
     //ref to writing speed (makes parameter in unity)
     public float writingSpeed;
 
     //ref to scripts (next game, im writing my sciprts likeThis and not like_this :D)
-    public leaf_write leafWrite;
+    //public leaf_write leafWrite;
     public player_movement playerMovement;
     public loading_bar loadingBar;
 
@@ -44,6 +45,7 @@ public class dialogue : MonoBehaviour
         indicator.SetActive(false);
         window.SetActive(false);
         leafPlane.SetActive(false);
+        leafWrite.SetActive(false);
         leafPlaneAnimator = leafPlane.GetComponent<Animator>();
         redAnimator = redNPC.GetComponent<Animator>();
     }
